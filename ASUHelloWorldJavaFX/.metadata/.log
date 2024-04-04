@@ -1,0 +1,349 @@
+!SESSION 2024-04-04 14:03:01.211 -----------------------------------------------
+eclipse.buildId=4.30.0.20231201-1200
+java.version=21.0.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=aarch64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -keyring /Users/nishant/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch aarch64 -product org.eclipse.epp.package.jee.product -data /Users/nishant/Documents/ASUHelloWorldJavaFX -product org.eclipse.epp.package.jee.product -keyring /Users/nishant/.eclipse_keyring
+
+!ENTRY org.eclipse.emf.ecore 2 0 2024-04-04 14:03:03.769
+!MESSAGE Both 'org.eclipse.jst.j2ee.core' and 'org.eclipse.jst.j2ee.core' register a package for 'application.xmi'
+
+!ENTRY ch.qos.logback.classic 1 0 2024-04-04 14:03:03.952
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-04-04 14:03:05.150
+!MESSAGE Logback config file: /Users/nishant/Documents/ASUHelloWorldJavaFX/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.2.1.20231030-1438.xml
+
+!ENTRY org.eclipse.jface 2 0 2024-04-04 14:03:06.867
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2024-04-04 14:03:06.867
+!MESSAGE A conflict occurred for COMMAND+SHIFT+T:
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2024-04-04 14:08:39.044
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 1 10001 2024-04-04 14:08:39.044
+!MESSAGE Your original request has been modified.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2024-04-04 14:08:39.044
+!MESSAGE "Java implementation of Git" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2024-04-04 14:08:39.044
+!MESSAGE "Mylyn Tasks Connector: GitHub" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2024-04-04 14:08:39.044
+!MESSAGE "Git integration for Eclipse" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2024-04-04 14:08:39.044
+!MESSAGE "Java implementation of Git - optional Http support using Apache httpclient" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2024-04-04 14:08:39.044
+!MESSAGE "Java implementation of Git - GPG support using BouncyCastle" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2024-04-04 14:08:39.044
+!MESSAGE "Java implementation of Git - ssh support using Apache MINA sshd" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2024-04-04 14:08:39.044
+!MESSAGE "Mylyn Git integration - Task focused interface" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2024-04-04 14:08:39.044
+!MESSAGE "Mylyn Versions Connector: Git" is already installed, so an update will be performed instead.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10054 2024-04-04 14:08:39.044
+!MESSAGE Cannot complete the install because of a conflicting dependency.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2024-04-04 14:08:39.044
+!MESSAGE Software being installed: Mylyn Git integration - Task focused interface 4.2.0.v20240202-0700 (org.eclipse.mylyn.egit.feature.feature.group 4.2.0.v20240202-0700)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2024-04-04 14:08:39.044
+!MESSAGE Software currently installed: Mylyn Context Connector: Eclipse IDE 4.1.0.v20231009-0014 (org.eclipse.mylyn.ide.feature.feature.group 4.1.0.v20231009-0014)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2024-04-04 14:08:39.044
+!MESSAGE Only one of the following can be installed at once: 
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2024-04-04 14:08:39.045
+!MESSAGE Mylyn Team UI 4.1.0.v20231009-0014 (org.eclipse.mylyn.team.ui 4.1.0.v20231009-0014)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2024-04-04 14:08:39.045
+!MESSAGE Mylyn Team UI 4.2.0.v20240220-1733 (org.eclipse.mylyn.team.ui 4.2.0.v20240220-1733)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2024-04-04 14:08:39.045
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2024-04-04 14:08:39.045
+!MESSAGE From: Mylyn Git integration - Task focused interface 4.2.0.v20240202-0700 (org.eclipse.mylyn.egit.feature.feature.group 4.2.0.v20240202-0700)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2024-04-04 14:08:39.045
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.mylyn.team.feature.feature.group [4.2.0,4.3.0)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2024-04-04 14:08:39.045
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2024-04-04 14:08:39.045
+!MESSAGE From: Mylyn Context Connector: Eclipse IDE 4.1.0.v20231009-0014 (org.eclipse.mylyn.ide.feature.feature.group 4.1.0.v20231009-0014)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2024-04-04 14:08:39.045
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.mylyn.team.feature.feature.group [4.1.0,4.2.0)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2024-04-04 14:08:39.045
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2024-04-04 14:08:39.045
+!MESSAGE From: Mylyn Context Connector: Team Support 4.1.0.v20231009-0014 (org.eclipse.mylyn.team.feature.feature.group 4.1.0.v20231009-0014)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2024-04-04 14:08:39.045
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.mylyn.team.ui [4.1.0.v20231009-0014,4.1.0.v20231009-0014]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2024-04-04 14:08:39.045
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2024-04-04 14:08:39.045
+!MESSAGE From: Mylyn Context Connector: Team Support 4.2.0.v20240220-1733 (org.eclipse.mylyn.team.feature.feature.group 4.2.0.v20240220-1733)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2024-04-04 14:08:39.045
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.mylyn.team.ui [4.2.0.v20240220-1733,4.2.0.v20240220-1733]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2024-04-04 14:08:39.049
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 1 10001 2024-04-04 14:08:39.049
+!MESSAGE Your original request has been modified.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2024-04-04 14:08:39.049
+!MESSAGE "Java implementation of Git" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2024-04-04 14:08:39.049
+!MESSAGE "Mylyn Tasks Connector: GitHub" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2024-04-04 14:08:39.049
+!MESSAGE "Git integration for Eclipse" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2024-04-04 14:08:39.049
+!MESSAGE "Java implementation of Git - optional Http support using Apache httpclient" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2024-04-04 14:08:39.049
+!MESSAGE "Java implementation of Git - GPG support using BouncyCastle" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2024-04-04 14:08:39.049
+!MESSAGE "Java implementation of Git - ssh support using Apache MINA sshd" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2024-04-04 14:08:39.049
+!MESSAGE "Mylyn Git integration - Task focused interface" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2024-04-04 14:08:39.049
+!MESSAGE "Mylyn Versions Connector: Git" is already installed, so an update will be performed instead.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10054 2024-04-04 14:08:39.049
+!MESSAGE Cannot complete the install because of a conflicting dependency.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2024-04-04 14:08:39.049
+!MESSAGE Software being installed: Mylyn Git integration - Task focused interface 4.2.0.v20240202-0700 (org.eclipse.mylyn.egit.feature.feature.group 4.2.0.v20240202-0700)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2024-04-04 14:08:39.049
+!MESSAGE Software currently installed: Mylyn Context Connector: Eclipse IDE 4.1.0.v20231009-0014 (org.eclipse.mylyn.ide.feature.feature.group 4.1.0.v20231009-0014)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2024-04-04 14:08:39.049
+!MESSAGE Only one of the following can be installed at once: 
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2024-04-04 14:08:39.049
+!MESSAGE Mylyn Team UI 4.1.0.v20231009-0014 (org.eclipse.mylyn.team.ui 4.1.0.v20231009-0014)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2024-04-04 14:08:39.049
+!MESSAGE Mylyn Team UI 4.2.0.v20240220-1733 (org.eclipse.mylyn.team.ui 4.2.0.v20240220-1733)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2024-04-04 14:08:39.049
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2024-04-04 14:08:39.049
+!MESSAGE From: Mylyn Git integration - Task focused interface 4.2.0.v20240202-0700 (org.eclipse.mylyn.egit.feature.feature.group 4.2.0.v20240202-0700)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2024-04-04 14:08:39.049
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.mylyn.team.feature.feature.group [4.2.0,4.3.0)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2024-04-04 14:08:39.049
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2024-04-04 14:08:39.049
+!MESSAGE From: Mylyn Context Connector: Eclipse IDE 4.1.0.v20231009-0014 (org.eclipse.mylyn.ide.feature.feature.group 4.1.0.v20231009-0014)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2024-04-04 14:08:39.049
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.mylyn.team.feature.feature.group [4.1.0,4.2.0)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2024-04-04 14:08:39.049
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2024-04-04 14:08:39.049
+!MESSAGE From: Mylyn Context Connector: Team Support 4.1.0.v20231009-0014 (org.eclipse.mylyn.team.feature.feature.group 4.1.0.v20231009-0014)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2024-04-04 14:08:39.049
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.mylyn.team.ui [4.1.0.v20231009-0014,4.1.0.v20231009-0014]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2024-04-04 14:08:39.049
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2024-04-04 14:08:39.049
+!MESSAGE From: Mylyn Context Connector: Team Support 4.2.0.v20240220-1733 (org.eclipse.mylyn.team.feature.feature.group 4.2.0.v20240220-1733)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2024-04-04 14:08:39.049
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.mylyn.team.ui [4.2.0.v20240220-1733,4.2.0.v20240220-1733]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2024-04-04 14:08:39.063
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 1 10001 2024-04-04 14:08:39.063
+!MESSAGE Your original request has been modified.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2024-04-04 14:08:39.063
+!MESSAGE "Java implementation of Git" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2024-04-04 14:08:39.063
+!MESSAGE "Mylyn Tasks Connector: GitHub" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2024-04-04 14:08:39.063
+!MESSAGE "Git integration for Eclipse" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2024-04-04 14:08:39.063
+!MESSAGE "Java implementation of Git - optional Http support using Apache httpclient" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2024-04-04 14:08:39.063
+!MESSAGE "Java implementation of Git - GPG support using BouncyCastle" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2024-04-04 14:08:39.063
+!MESSAGE "Java implementation of Git - ssh support using Apache MINA sshd" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2024-04-04 14:08:39.063
+!MESSAGE "Mylyn Git integration - Task focused interface" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2024-04-04 14:08:39.063
+!MESSAGE "Mylyn Versions Connector: Git" is already installed, so an update will be performed instead.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10054 2024-04-04 14:08:39.063
+!MESSAGE Cannot complete the install because of a conflicting dependency.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2024-04-04 14:08:39.063
+!MESSAGE Software being installed: Mylyn Git integration - Task focused interface 4.2.0.v20240202-0700 (org.eclipse.mylyn.egit.feature.feature.group 4.2.0.v20240202-0700)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2024-04-04 14:08:39.063
+!MESSAGE Software currently installed: Mylyn Context Connector: Eclipse IDE 4.1.0.v20231009-0014 (org.eclipse.mylyn.ide.feature.feature.group 4.1.0.v20231009-0014)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2024-04-04 14:08:39.063
+!MESSAGE Only one of the following can be installed at once: 
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2024-04-04 14:08:39.063
+!MESSAGE Mylyn Team UI 4.1.0.v20231009-0014 (org.eclipse.mylyn.team.ui 4.1.0.v20231009-0014)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2024-04-04 14:08:39.063
+!MESSAGE Mylyn Team UI 4.2.0.v20240220-1733 (org.eclipse.mylyn.team.ui 4.2.0.v20240220-1733)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2024-04-04 14:08:39.063
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2024-04-04 14:08:39.063
+!MESSAGE From: Mylyn Git integration - Task focused interface 4.2.0.v20240202-0700 (org.eclipse.mylyn.egit.feature.feature.group 4.2.0.v20240202-0700)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2024-04-04 14:08:39.063
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.mylyn.team.feature.feature.group [4.2.0,4.3.0)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2024-04-04 14:08:39.063
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2024-04-04 14:08:39.063
+!MESSAGE From: Mylyn Context Connector: Eclipse IDE 4.1.0.v20231009-0014 (org.eclipse.mylyn.ide.feature.feature.group 4.1.0.v20231009-0014)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2024-04-04 14:08:39.063
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.mylyn.team.feature.feature.group [4.1.0,4.2.0)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2024-04-04 14:08:39.063
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2024-04-04 14:08:39.063
+!MESSAGE From: Mylyn Context Connector: Team Support 4.1.0.v20231009-0014 (org.eclipse.mylyn.team.feature.feature.group 4.1.0.v20231009-0014)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2024-04-04 14:08:39.063
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.mylyn.team.ui [4.1.0.v20231009-0014,4.1.0.v20231009-0014]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2024-04-04 14:08:39.063
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2024-04-04 14:08:39.063
+!MESSAGE From: Mylyn Context Connector: Team Support 4.2.0.v20240220-1733 (org.eclipse.mylyn.team.feature.feature.group 4.2.0.v20240220-1733)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2024-04-04 14:08:39.063
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.mylyn.team.ui [4.2.0.v20240220-1733,4.2.0.v20240220-1733]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2024-04-04 14:08:39.064
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 1 10001 2024-04-04 14:08:39.064
+!MESSAGE Your original request has been modified.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2024-04-04 14:08:39.064
+!MESSAGE "Java implementation of Git" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2024-04-04 14:08:39.064
+!MESSAGE "Mylyn Tasks Connector: GitHub" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2024-04-04 14:08:39.064
+!MESSAGE "Git integration for Eclipse" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2024-04-04 14:08:39.064
+!MESSAGE "Java implementation of Git - optional Http support using Apache httpclient" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2024-04-04 14:08:39.064
+!MESSAGE "Java implementation of Git - GPG support using BouncyCastle" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2024-04-04 14:08:39.065
+!MESSAGE "Java implementation of Git - ssh support using Apache MINA sshd" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2024-04-04 14:08:39.065
+!MESSAGE "Mylyn Git integration - Task focused interface" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2024-04-04 14:08:39.065
+!MESSAGE "Mylyn Versions Connector: Git" is already installed, so an update will be performed instead.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10054 2024-04-04 14:08:39.065
+!MESSAGE Cannot complete the install because of a conflicting dependency.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2024-04-04 14:08:39.065
+!MESSAGE Software being installed: Mylyn Git integration - Task focused interface 4.2.0.v20240202-0700 (org.eclipse.mylyn.egit.feature.feature.group 4.2.0.v20240202-0700)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2024-04-04 14:08:39.065
+!MESSAGE Software currently installed: Mylyn Context Connector: Eclipse IDE 4.1.0.v20231009-0014 (org.eclipse.mylyn.ide.feature.feature.group 4.1.0.v20231009-0014)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2024-04-04 14:08:39.065
+!MESSAGE Only one of the following can be installed at once: 
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2024-04-04 14:08:39.065
+!MESSAGE Mylyn Team UI 4.1.0.v20231009-0014 (org.eclipse.mylyn.team.ui 4.1.0.v20231009-0014)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2024-04-04 14:08:39.065
+!MESSAGE Mylyn Team UI 4.2.0.v20240220-1733 (org.eclipse.mylyn.team.ui 4.2.0.v20240220-1733)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2024-04-04 14:08:39.065
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2024-04-04 14:08:39.065
+!MESSAGE From: Mylyn Git integration - Task focused interface 4.2.0.v20240202-0700 (org.eclipse.mylyn.egit.feature.feature.group 4.2.0.v20240202-0700)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2024-04-04 14:08:39.065
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.mylyn.team.feature.feature.group [4.2.0,4.3.0)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2024-04-04 14:08:39.065
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2024-04-04 14:08:39.065
+!MESSAGE From: Mylyn Context Connector: Eclipse IDE 4.1.0.v20231009-0014 (org.eclipse.mylyn.ide.feature.feature.group 4.1.0.v20231009-0014)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2024-04-04 14:08:39.065
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.mylyn.team.feature.feature.group [4.1.0,4.2.0)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2024-04-04 14:08:39.065
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2024-04-04 14:08:39.065
+!MESSAGE From: Mylyn Context Connector: Team Support 4.1.0.v20231009-0014 (org.eclipse.mylyn.team.feature.feature.group 4.1.0.v20231009-0014)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2024-04-04 14:08:39.065
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.mylyn.team.ui [4.1.0.v20231009-0014,4.1.0.v20231009-0014]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2024-04-04 14:08:39.065
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2024-04-04 14:08:39.065
+!MESSAGE From: Mylyn Context Connector: Team Support 4.2.0.v20240220-1733 (org.eclipse.mylyn.team.feature.feature.group 4.2.0.v20240220-1733)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2024-04-04 14:08:39.065
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.mylyn.team.ui [4.2.0.v20240220-1733,4.2.0.v20240220-1733]
+
+!ENTRY org.eclipse.equinox.preferences 4 4 2024-04-04 14:12:07.922
+!MESSAGE Exception saving preferences to: /Users/nishant/.p2/org.eclipse.equinox.p2.engine/profileRegistry/_Applications_Eclipse.app_Contents_Eclipse.profile/.data/.settings/org.eclipse.equinox.p2.metadata.repository.prefs.
+!STACK 0
+java.nio.file.NoSuchFileException: /Users/nishant/.p2/org.eclipse.equinox.p2.engine/profileRegistry/_Applications_Eclipse.app_Contents_Eclipse.profile/.data/.settings/org.eclipse.equinox.p2.metadata.repository.prefs.bak -> /Users/nishant/.p2/org.eclipse.equinox.p2.engine/profileRegistry/_Applications_Eclipse.app_Contents_Eclipse.profile/.data/.settings/org.eclipse.equinox.p2.metadata.repository.prefs
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106)
+	at java.base/sun.nio.fs.UnixFileSystem.move(UnixFileSystem.java:934)
+	at java.base/sun.nio.fs.UnixFileSystemProvider.move(UnixFileSystemProvider.java:309)
+	at java.base/java.nio.file.Files.move(Files.java:1430)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.write(EclipsePreferences.java:289)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.save(EclipsePreferences.java:1039)
+	at org.eclipse.equinox.internal.p2.engine.ProfilePreferences.doSave(ProfilePreferences.java:141)
+	at org.eclipse.equinox.internal.p2.engine.ProfilePreferences$SaveJob.run(ProfilePreferences.java:54)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.equinox.p2.engine 2 0 2024-04-04 14:12:07.924
+!MESSAGE Exception saving profile preferences
+!STACK 0
+org.osgi.service.prefs.BackingStoreException: Exception saving preferences to: /Users/nishant/.p2/org.eclipse.equinox.p2.engine/profileRegistry/_Applications_Eclipse.app_Contents_Eclipse.profile/.data/.settings/org.eclipse.equinox.p2.metadata.repository.prefs.
+	at org.eclipse.core.internal.preferences.EclipsePreferences.write(EclipsePreferences.java:297)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.save(EclipsePreferences.java:1039)
+	at org.eclipse.equinox.internal.p2.engine.ProfilePreferences.doSave(ProfilePreferences.java:141)
+	at org.eclipse.equinox.internal.p2.engine.ProfilePreferences$SaveJob.run(ProfilePreferences.java:54)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.nio.file.NoSuchFileException: /Users/nishant/.p2/org.eclipse.equinox.p2.engine/profileRegistry/_Applications_Eclipse.app_Contents_Eclipse.profile/.data/.settings/org.eclipse.equinox.p2.metadata.repository.prefs.bak -> /Users/nishant/.p2/org.eclipse.equinox.p2.engine/profileRegistry/_Applications_Eclipse.app_Contents_Eclipse.profile/.data/.settings/org.eclipse.equinox.p2.metadata.repository.prefs
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106)
+	at java.base/sun.nio.fs.UnixFileSystem.move(UnixFileSystem.java:934)
+	at java.base/sun.nio.fs.UnixFileSystemProvider.move(UnixFileSystemProvider.java:309)
+	at java.base/java.nio.file.Files.move(Files.java:1430)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.write(EclipsePreferences.java:289)
+	... 4 more
+!SESSION 2024-04-04 14:12:16.833 -----------------------------------------------
+eclipse.buildId=4.31.0.20240307-1200
+java.version=22
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=aarch64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -keyring /Users/nishant/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch aarch64 -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -data file:/Users/nishant/Documents/ASUHelloWorldJavaFX/ -product org.eclipse.epp.package.jee.product -keyring /Users/nishant/.eclipse_keyring
+
+!ENTRY org.eclipse.emf.ecore 2 0 2024-04-04 14:12:24.112
+!MESSAGE Both 'org.eclipse.jst.j2ee.core' and 'org.eclipse.jst.j2ee.core' register a package for 'application.xmi'
+
+!ENTRY ch.qos.logback.classic 1 0 2024-04-04 14:12:24.227
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-04-04 14:12:32.110
+!MESSAGE Logback config file: /Users/nishant/Documents/ASUHelloWorldJavaFX/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.6.0.20240217-1525.xml
+!SESSION 2024-04-04 14:14:16.701 -----------------------------------------------
+eclipse.buildId=4.31.0.20240307-1200
+java.version=22
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=aarch64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product file:/Users/nishant/Documents/ASUHelloWorldJavaFX/
+Command-line arguments:  -os macosx -ws cocoa -arch aarch64 -product org.eclipse.epp.package.jee.product file:/Users/nishant/Documents/ASUHelloWorldJavaFX/
+
+!ENTRY org.eclipse.emf.ecore 2 0 2024-04-04 14:14:19.192
+!MESSAGE Both 'org.eclipse.jst.j2ee.core' and 'org.eclipse.jst.j2ee.core' register a package for 'application.xmi'
+
+!ENTRY ch.qos.logback.classic 1 0 2024-04-04 14:14:19.572
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-04-04 14:14:29.664
+!MESSAGE Logback config file: /Users/nishant/Documents/ASUHelloWorldJavaFX/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.6.0.20240217-1525.xml
+!SESSION 2024-04-04 14:15:05.480 -----------------------------------------------
+eclipse.buildId=4.31.0.20240307-1200
+java.version=22
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=aarch64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product file:/Users/nishant/Documents/ASUHelloWorldJavaFX/
+Command-line arguments:  -os macosx -ws cocoa -arch aarch64 -product org.eclipse.epp.package.jee.product file:/Users/nishant/Documents/ASUHelloWorldJavaFX/ -data file:/Users/nishant/Documents/ASUHelloWorldJavaFX/
+
+!ENTRY org.eclipse.emf.ecore 2 0 2024-04-04 14:15:07.864
+!MESSAGE Both 'org.eclipse.jst.j2ee.core' and 'org.eclipse.jst.j2ee.core' register a package for 'application.xmi'
+
+!ENTRY ch.qos.logback.classic 1 0 2024-04-04 14:15:08.030
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-04-04 14:15:09.113
+!MESSAGE Logback config file: /Users/nishant/Documents/ASUHelloWorldJavaFX/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.6.0.20240217-1525.xml
+
+!ENTRY org.eclipse.core.jobs 2 2 2024-04-04 14:16:04.634
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage$17
